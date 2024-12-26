@@ -13,4 +13,8 @@ const filter = numbers.filter(n => n > 2);
 const selected = numbers.filter(p => p%2 === 0);
 console.log(selected);
 
-const friends = ['John', 'Peter', 'Sandy', 'Tom'];
+const friends = ['John', 'Peter', 'Sandy', 'Tom', 'Lucy', 
+'Bob', 'Alice', 'Mary', 'Jane', 'Jack'
+];
+const oddFriends = friends.filter(f => f.length % 2 === 0);
+console.log(oddFriends);

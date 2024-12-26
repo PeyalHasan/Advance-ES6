@@ -9,3 +9,5 @@ console.log(double); // [2, 4, 6, 8, 10]
 const items = [12, 445,64, 34, 23, 67];
 const doubled = items.map(num => (num * 2) + 10);
 
+// is map like a for loop?
+// yes, it is similar to a for loop but it is more concise and readable
